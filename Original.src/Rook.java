@@ -25,7 +25,7 @@ public class Rook
      * @param color
      *            either GamePiece.WHITE, BLACK, or UNASSIGNED
      */
-    public Rook( ChessGameBoard board, int row, int col, int color ){
+    public Rook( ChessGameBoard board, int row, int col, Color color ){
         super( board, row, col, color );
     }
     /**
@@ -53,12 +53,12 @@ public class Rook
      */
     @Override
     public ImageIcon createImageByPieceType(){
-        if ( getColorOfPiece() == ChessGamePiece.WHITE ){
+        if ( getColorOfPiece() == Color.WHITE ){
             return new ImageIcon(
                 getClass().getResource("chessImages/WhiteRook.gif")
             );            
         }
-        else if ( getColorOfPiece() == ChessGamePiece.BLACK ){
+        else if ( getColorOfPiece() == Color.BLACK ){
             return new ImageIcon(
                 getClass().getResource("chessImages/BlackRook.gif")
             );            
