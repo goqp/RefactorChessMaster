@@ -11,8 +11,6 @@ import java.util.ArrayList;
  */
 public class Rook
     extends ChessGamePiece{
-    // private ArrayList<String> possibleMoves;
-    // ----------------------------------------------------------
     /**
      * Create a new Rook object.
      *
@@ -53,21 +51,19 @@ public class Rook
      */
     @Override
     public ImageIcon createImageByPieceType(){
-        if ( getColorOfPiece() == ChessGamePiece.WHITE ){
-            return new ImageIcon(
-                getClass().getResource("chessImages/WhiteRook.gif")
-            );            
-        }
-        else if ( getColorOfPiece() == ChessGamePiece.BLACK ){
-            return new ImageIcon(
-                getClass().getResource("chessImages/BlackRook.gif")
-            );            
-        }
-        else
-        {
-            return new ImageIcon(
-                getClass().getResource("chessImages/default-Unassigned.gif")
-            );        
+        switch( getColorOfPiece() ){
+            case ChessGamePiece.WHITE:
+                return new ImageIcon(
+                    getClass().getResource("chessImages/WhiteRook.gif")
+                );
+            case ChessGamePiece.BLACK:
+                return new ImageIcon(
+                    getClass().getResource("chessImages/BlackRook.gif")
+                );
+            default:
+                return new ImageIcon(
+                    getClass().getResource("chessImages/default-Unassigned.gif")
+                );
         }
     }
 }
