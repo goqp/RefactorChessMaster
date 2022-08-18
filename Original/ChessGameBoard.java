@@ -3,9 +3,11 @@ package Original;
 import java.util.ArrayList;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
+import java.awt.event.MouseAdapter;
 import java.awt.Color;
 import javax.swing.JPanel;
 import java.awt.GridLayout;
+
 // -------------------------------------------------------------------------
 /**
  * The panel that represents the Chess game board. Contains a few methods that
@@ -233,53 +235,26 @@ public class ChessGameBoard extends JPanel{
      * @author Myles David (davidmm2)
      * @version 2010.11.16
      */
-    private class BoardListener
-        implements MouseListener
+    private class BoardListener extends MouseAdapter
+        
     {
+      
+        public void mouseClicked(MouseEvent e){
+                if ( e.getButton() == MouseEvent.BUTTON1 &&
+                getParent() instanceof ChessPanel ){
+                ( (ChessPanel)getParent() ).getGameEngine()
+                    .determineActionFromSquareClick( e );
+            }
+        }
+
+    
         /**
          * Do an action when the left mouse button is clicked.
          *
          * @param e
          *            the event from the listener
          */
-        public void mouseClicked( MouseEvent e ){
-            if ( e.getButton() == MouseEvent.BUTTON1 &&
-                getParent() instanceof ChessPanel ){
-                ( (ChessPanel)getParent() ).getGameEngine()
-                    .determineActionFromSquareClick( e );
-            }
-        }
-        /**
-         * Unused method.
-         *
-         * @param e
-         *            the mouse event from the listener
-         */
-        public void mouseEntered( MouseEvent e ){ /* not used */
-        }
-        /**
-         * Unused method.
-         *
-         * @param e
-         *            the mouse event from the listener
-         */
-        public void mouseExited( MouseEvent e ){ /* not used */
-        }
-        /**
-         * Unused method.
-         *
-         * @param e
-         *            the mouse event from the listener
-         */
-        public void mousePressed( MouseEvent e ){ /* not used */
-        }
-        /**
-         * Unused method.
-         *
-         * @param e
-         *            the mouse event from the listener
-         */
-        public void mouseReleased( MouseEvent e ){ /* not used */
-        }
+       
+      
     }
 }
