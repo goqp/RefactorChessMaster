@@ -1,0 +1,2 @@
+UI.board.ChessGameBoard#getCell(II)LUI/board/BoardSquare;
+UI.board.ChessGameBoard#validateCoordinates(II)Z

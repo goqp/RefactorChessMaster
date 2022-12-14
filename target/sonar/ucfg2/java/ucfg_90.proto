@@ -1,0 +1,190 @@
+
+*logic.ChessGameEngine#determineGameLost()Ip
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.javaã ã( "14*ï
+13p
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.javaä' ä(:ìé
+p
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.javaä' ä(=
+%3boolean"-logic.ChessGameEngine#playerHasLegalMoves(I)Z*
+logic.ChessGameEngine*22playerHasLegalMoves(I)*
+11
+12*™
+14p
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.javaä ä(·
+´
+p
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.javaä ä(
+%0UI.pieces.King"__id*$*"
+logic.ChessGameEngine"
+king1À
+½
+p
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.javaä ä(!
+%1UI.board.ChessGameBoard"__id*$*"
+logic.ChessGameEngine"
+board™–
+p
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.javaä ä("
+%2boolean"4UI.pieces.King#isChecked(LUI/board/ChessGameBoard;)Z*
+
+%0UI.pieces.King*
+
+%1UI.board.ChessGameBoard2$isChecked(LUI/board/ChessGameBoard;)*
+13
+11*ñ
+1p
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.javaõ õ("z
+p
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.javaõ õ(
+""*ñ
+2p
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.javaó ó("z
+p
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.javaó ó(
+""*•
+3p
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.javañ ñ(Á
+¾
+p
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.javañ ñ(
+%19UI.board.ChessGameBoard"__id*$*"
+logic.ChessGameEngine"
+boardŠ‡
+p
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.javañ ñ(1
+%20java.util.ArrayList"@UI.board.ChessGameBoard#getAllBlackPieces()Ljava/util/ArrayList;* 
+
+%19UI.board.ChessGameBoard2getAllBlackPieces()ÄÁ
+p
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.javañ ñ(8
+
+%21int"java.util.ArrayList#size()I*
+
+%20java.util.ArrayList2size()*
+2
+1*•
+4p
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.javað ð(Á
+¾
+p
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.javað ð(
+%16UI.board.ChessGameBoard"__id*$*"
+logic.ChessGameEngine"
+boardŠ‡
+p
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.javað ð(-
+%17java.util.ArrayList"@UI.board.ChessGameBoard#getAllWhitePieces()Ljava/util/ArrayList;* 
+
+%16UI.board.ChessGameBoard2getAllWhitePieces()ÄÁ
+p
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.javað ð(4
+
+%18int"java.util.ArrayList#size()I*
+
+%17java.util.ArrayList2size()*
+3
+1*í
+5p
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.javaï0 ï(Cíê
+p
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.javaï0 ï(F
+%15boolean"-logic.ChessGameEngine#playerHasLegalMoves(I)Z*
+logic.ChessGameEngine*22playerHasLegalMoves(I)*
+2
+4*›
+6p
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.javaï ï(¸
+µ
+p
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.javaï ï(
+%12UI.pieces.King"__id*$*"
+logic.ChessGameEngine"
+king2Á
+¾
+p
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.javaï% ï(*
+%13UI.board.ChessGameBoard"__id*$*"
+logic.ChessGameEngine"
+boardœ™
+p
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.javaï ï(+
+%14boolean"4UI.pieces.King#isChecked(LUI/board/ChessGameBoard;)Z*
+
+%12UI.pieces.King* 
+
+%13UI.board.ChessGameBoard2$isChecked(LUI/board/ChessGameBoard;)*
+4
+5*í
+7p
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.javaî) î(<íê
+p
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.javaî) î(?
+%11boolean"-logic.ChessGameEngine#playerHasLegalMoves(I)Z*
+logic.ChessGameEngine*22playerHasLegalMoves(I)*
+2
+6*—
+8p
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.javaî î(·
+´
+p
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.javaî î(
+%8UI.pieces.King"__id*$*"
+logic.ChessGameEngine"
+king1À
+½
+p
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.javaî î(#
+%9UI.board.ChessGameBoard"__id*$*"
+logic.ChessGameEngine"
+boardš—
+p
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.javaî î($
+%10boolean"4UI.pieces.King#isChecked(LUI/board/ChessGameBoard;)Z*
+
+%8UI.pieces.King*
+
+%9UI.board.ChessGameBoard2$isChecked(LUI/board/ChessGameBoard;)*
+6
+7*ñ
+9p
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.javaì ì("z
+p
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.javaì ì(
+""*í
+10p
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.javaé' é(:ìé
+p
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.javaé' é(=
+%7boolean"-logic.ChessGameEngine#playerHasLegalMoves(I)Z*
+logic.ChessGameEngine*22playerHasLegalMoves(I)*
+8
+9*˜
+11p
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.javaé é(·
+´
+p
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.javaé é(
+%4UI.pieces.King"__id*$*"
+logic.ChessGameEngine"
+king2À
+½
+p
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.javaé é(!
+%5UI.board.ChessGameBoard"__id*$*"
+logic.ChessGameEngine"
+board™–
+p
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.javaé é("
+%6boolean"4UI.pieces.King#isChecked(LUI/board/ChessGameBoard;)Z*
+
+%4UI.pieces.King*
+
+%5UI.board.ChessGameBoard2$isChecked(LUI/board/ChessGameBoard;)*
+8
+10*ò
+12p
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.javaç ç("z
+p
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.javaç ç(
+""B
+logic.ChessGameEngine

@@ -1,0 +1,3 @@
+logic.ChessGraveyard#addPiece(LUI/ChessGamePiece;)V
+javax.swing.JLabel#instance-init#
+javax.swing.JLabel#<init>()V

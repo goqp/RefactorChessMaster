@@ -1,0 +1,63 @@
+
+7UI.ChessGamePiece#canMove(LUI/board/ChessGameBoard;II)Zl
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.javaü ü("3*ş
+2l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.javaÿ ÿ((’
+
+l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.javaÿ ÿ(9
+%5boolean"EUI.ChessGamePiece#testMoveForKingSafety(LUI/board/ChessGameBoard;II)Z*
+UI.ChessGamePiece*"
+ 
+boardUI.board.ChessGameBoard*
+""*
+"""v
+l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.javaÿ ÿ(:
+""*È	
+3l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.javaı ı(«¨
+l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.javaı ı("
+
+%0void"AUI.ChessGamePiece#updatePossibleMoves(LUI/board/ChessGameBoard;)V*
+UI.ChessGamePiece*"
+ 
+boardUI.board.ChessGameBoard2.updatePossibleMoves(LUI/board/ChessGameBoard;)¼
+¹
+l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.javaş ş(
+%1java.util.ArrayList"__id*(*&
+UI.ChessGamePiece"
+possibleMoves¢
+Ÿ
+l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.javaş" ş(+
+%2java.lang.String"__concat*
+""*
+,µ
+²
+l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.javaş" ş(1
+%3java.lang.String"__concat*
+
+%2java.lang.String*
+""‚ÿ
+l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.javaş ş(2	
+%4int"0java.util.ArrayList#indexOf(Ljava/lang/Object;)I*
+
+%1java.util.ArrayList*
+
+%3java.lang.String2indexOf(Ljava/lang/Object;)*
+2
+1*é
+1l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.java ("v
+l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.java (
+"": 
+boardUI.board.ChessGameBoard:
+"":
+""B
+UI.ChessGamePiece

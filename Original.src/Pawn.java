@@ -27,7 +27,7 @@ public class Pawn
      * @param color
      *            either GamePiece.WHITE, BLACK, or UNASSIGNED
      */
-    public Pawn( ChessGameBoard board, int row, int col, ColorEnum color ){
+    public Pawn( ChessGameBoard board, int row, int col, int color ){
         super( board, row, col, color, true );
         notMoved = true;
         possibleMoves = calculatePossibleMoves( board );
@@ -48,8 +48,8 @@ public class Pawn
         if ( super.move( board, row, col ) ){
             notMoved = false;
             possibleMoves = calculatePossibleMoves( board );
-            if ( ( getColorOfPiece() == ColorEnum.BLACK && row == 7 )
-                || ( getColorOfPiece() == ColorEnum.WHITE && row == 0 ) ){ // pawn has reached the end of the board, promote it to queen
+            if ( ( getColorOfPiece() == ChessGamePiece.BLACK && row == 7 )
+                || ( getColorOfPiece() == ChessGamePiece.WHITE && row == 0 ) ){ // pawn has reached the end of the board, promote it to queen
                 board.getCell( row, col ).setPieceOnSquare( new Queen(
                     board,
                     row,
@@ -73,7 +73,7 @@ public class Pawn
         ArrayList<String> moves = new ArrayList<String>();
         if ( isPieceOnScreen() ){
             int currRow =
-                getColorOfPiece() == ColorEnum.WHITE
+                getColorOfPiece() == ChessGamePiece.WHITE
                     ? ( pieceRow - 1 )
                     : ( pieceRow + 1 );
             int count = 1;
@@ -91,13 +91,13 @@ public class Pawn
                     break;
                 }
                 currRow =
-                    ( getColorOfPiece() == ColorEnum.WHITE )
+                    ( getColorOfPiece() == ChessGamePiece.WHITE )
                         ? ( currRow - 1 )
                         : ( currRow + 1 );
                 count++;
             }
             // check for enemy capture points
-            if ( getColorOfPiece() == ColorEnum.WHITE ){
+            if ( getColorOfPiece() == ChessGamePiece.WHITE ){
                 if ( isEnemy( board, pieceRow - 1, pieceColumn - 1 ) ){
                     moves.add( ( pieceRow - 1 ) + "," + ( pieceColumn - 1 ) );
                 }
@@ -124,12 +124,12 @@ public class Pawn
      */
     @Override
     public ImageIcon createImageByPieceType(){
-        if ( getColorOfPiece() == ColorEnum.WHITE ){
+        if ( getColorOfPiece() == ChessGamePiece.WHITE ){
             return new ImageIcon(
                 getClass().getResource("chessImages/WhitePawn.gif")
             );            
         }
-        else if ( getColorOfPiece() == ColorEnum.BLACK ){
+        else if ( getColorOfPiece() == ChessGamePiece.BLACK ){
             return new ImageIcon(
                 getClass().getResource("chessImages/BlackPawn.gif")
             );            

@@ -1,0 +1,15 @@
+UI.board.ChessGameBoard#initializeBoard()V
+UI.pieces.King#instance-init#
+UI.pieces.Queen#instance-init#
+UI.pieces.Rook#<init>(LUI/board/ChessGameBoard;III)V
+UI.board.BoardSquare#<init>(IILUI/ChessGamePiece;)V
+UI.pieces.Knight#instance-init#
+UI.pieces.Bishop#<init>(LUI/board/ChessGameBoard;III)V
+UI.pieces.Pawn#instance-init#
+UI.pieces.Bishop#instance-init#
+UI.board.BoardSquare#instance-init#
+UI.pieces.Rook#instance-init#
+UI.pieces.Pawn#<init>(LUI/board/ChessGameBoard;III)V
+UI.pieces.Knight#<init>(LUI/board/ChessGameBoard;III)V
+UI.pieces.King#<init>(LUI/board/ChessGameBoard;III)V
+UI.pieces.Queen#<init>(LUI/board/ChessGameBoard;III)V

@@ -1,0 +1,3 @@
+logic.ChessGraveyard#clearGraveyard()V
+javax.swing.JLabel#<init>(Ljava/lang/String;)V
+javax.swing.JLabel#instance-init#

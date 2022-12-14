@@ -1,0 +1,2 @@
+logic.ChessMenuBar#exitHandler()V
+javax.swing.JOptionPane#showMessageDialog(Ljava/awt/Component;Ljava/lang/Object;)V

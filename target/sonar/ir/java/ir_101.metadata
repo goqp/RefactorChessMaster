@@ -1,0 +1,4 @@
+logic.ChessGameLog#addToLog(Ljava/lang/String;)V
+java.lang.String#length()I
+java.util.Date#<init>()V
+java.util.Date#instance-init#

@@ -1,0 +1,21 @@
+
+4UI.pieces.King#isChecked(LUI/board/ChessGameBoard;)Zg
+]D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/pieces/King.javaK K("1*ä
+1g
+]D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/pieces/King.javaL L("ÆÃ
+g
+]D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/pieces/King.javaL L()
+%0java.util.ArrayList"UUI.ChessGamePiece#getCurrentAttackers(LUI/board/ChessGameBoard;)Ljava/util/ArrayList;*
+UI.pieces.King*"
+ 
+boardUI.board.ChessGameBoard2.getCurrentAttackers(LUI/board/ChessGameBoard;)¹¶
+g
+]D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/pieces/King.javaL L(0	
+%1int"java.util.ArrayList#size()I*
+
+%0java.util.ArrayList2size()"q
+g
+]D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/pieces/King.javaL L(5
+"": 
+boardUI.board.ChessGameBoardB
+UI.pieces.King

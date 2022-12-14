@@ -15,7 +15,7 @@ import javax.swing.ImageIcon;
  */
 public abstract class ChessGamePiece{
     private boolean             skipMoveGeneration;
-    private ColorEnum           pieceColor;
+    private int                 pieceColor;
     private ImageIcon           pieceImage;
     /**
      * The list of possible moves for this piece. Updated when actions involving
@@ -59,7 +59,7 @@ public abstract class ChessGamePiece{
         ChessGameBoard board,
         int row,
         int col,
-        ColorEnum pieceColor ){
+        int pieceColor ){
         skipMoveGeneration = false;
         this.pieceColor = pieceColor;
         pieceImage = createImageByPieceType();
@@ -91,7 +91,7 @@ public abstract class ChessGamePiece{
         ChessGameBoard board,
         int row,
         int col,
-        ColorEnum pieceColor,
+        int pieceColor,
         boolean skipMoveGeneration ){
         this.skipMoveGeneration = skipMoveGeneration;
         this.pieceColor = pieceColor;
@@ -423,7 +423,7 @@ public abstract class ChessGamePiece{
      * @return int 0 for a black piece, 1 for a white piece, -1 for an
      *         unassigned piece.
      */
-    public ColorEnum getColorOfPiece(){
+    public int getColorOfPiece(){
         return pieceColor;
     }
     // ----------------------------------------------------------
@@ -671,12 +671,12 @@ public abstract class ChessGamePiece{
                 ? null
                 : board.getCell( row, col ).getPieceOnSquare();
         if ( enemyPiece == null
-            || this.getColorOfPiece() == ColorEnum.UNASSIGNED
-            || enemyPiece.getColorOfPiece() == ColorEnum.UNASSIGNED ){
+            || this.getColorOfPiece() == ChessGamePiece.UNASSIGNED
+            || enemyPiece.getColorOfPiece() == ChessGamePiece.UNASSIGNED ){
             return false;
         }
-        if ( this.getColorOfPiece() == ColorEnum.WHITE ){
-            if ( enemyPiece.getColorOfPiece() == ColorEnum.BLACK ){
+        if ( this.getColorOfPiece() == ChessGamePiece.WHITE ){
+            if ( enemyPiece.getColorOfPiece() == ChessGamePiece.BLACK ){
                 return true;
             }
             else
@@ -686,7 +686,7 @@ public abstract class ChessGamePiece{
         }
         else
         {
-            if ( enemyPiece.getColorOfPiece() == ColorEnum.WHITE ){
+            if ( enemyPiece.getColorOfPiece() == ChessGamePiece.WHITE ){
                 return true;
             }
             else
@@ -704,10 +704,10 @@ public abstract class ChessGamePiece{
      */
     public ArrayList<ChessGamePiece> getCurrentAttackers( ChessGameBoard board ){
         ArrayList<ChessGamePiece> attackers = new ArrayList<ChessGamePiece>();
-        ColorEnum enemyColor =
-            ( this.getColorOfPiece() == ColorEnum.BLACK )
-                ? ColorEnum.WHITE
-                : ColorEnum.BLACK;
+        int enemyColor =
+            ( this.getColorOfPiece() == ChessGamePiece.BLACK )
+                ? ChessGamePiece.WHITE
+                : ChessGamePiece.BLACK;
         this.updatePossibleMoves( board );
         for ( int i = 0; i < board.getCells().length; i++ ){
             for ( int j = 0; j < board.getCells()[0].length; j++ ){

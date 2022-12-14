@@ -79,7 +79,7 @@ public class ChessGameBoard extends JPanel{
             for ( int j = 0; j < 8; j++ ){
                 if ( chessCells[i][j].getPieceOnSquare() != null
                     && chessCells[i][j].getPieceOnSquare().getColorOfPiece() ==
-                        ColorEnum.WHITE ){
+                        ChessGamePiece.WHITE ){
                     whitePieces.add( chessCells[i][j].getPieceOnSquare() );
                 }
             }
@@ -98,7 +98,7 @@ public class ChessGameBoard extends JPanel{
             for ( int j = 0; j < 8; j++ ){
                 if ( chessCells[i][j].getPieceOnSquare() != null
                     && chessCells[i][j].getPieceOnSquare().getColorOfPiece() ==
-                        ColorEnum.BLACK ){
+                        ChessGamePiece.BLACK ){
                     blackPieces.add( chessCells[i][j].getPieceOnSquare() );
                 }
             }
@@ -162,16 +162,16 @@ public class ChessGameBoard extends JPanel{
                 ChessGamePiece pieceToAdd;
                 if ( i == 1 ) // black pawns
                 {
-                    pieceToAdd = new Pawn( this, i, j, ColorEnum.BLACK );
+                    pieceToAdd = new Pawn( this, i, j, ChessGamePiece.BLACK );
                 }
                 else if ( i == 6 ) // white pawns
                 {
-                    pieceToAdd = new Pawn( this, i, j, ColorEnum.WHITE );
+                    pieceToAdd = new Pawn( this, i, j, ChessGamePiece.WHITE );
                 }
                 else if ( i == 0 || i == 7 ) // main rows
                 {
                     int colNum =
-                        i == 0 ? ColorEnum.BLACK : ColorEnum.WHITE;
+                        i == 0 ? ChessGamePiece.BLACK : ChessGamePiece.WHITE;
                     if ( j == 0 || j == 7 ){
                         pieceToAdd = new Rook( this, i, j, colNum );
                     }

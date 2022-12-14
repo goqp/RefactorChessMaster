@@ -1,0 +1,3 @@
+logic.ChessGameLog#<init>()V
+javax.swing.JTextArea#<init>(Ljava/lang/String;II)V
+javax.swing.JTextArea#instance-init#

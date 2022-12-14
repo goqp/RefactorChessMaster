@@ -1,0 +1,51 @@
+
+9UI.board.ChessGameBoard#getCell(II)LUI/board/BoardSquare;p
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.javaA A("3*Á
+2p
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.javaC C(»
+≈
+p
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.javaC C(
+%1UI.board.BoardSquare[][]"__id*+*)
+UI.board.ChessGameBoard"
+
+chessCells…
+∆
+p
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.javaC C("
+%2UI.board.BoardSquare[]"
+__arrayGet* 
+
+%1UI.board.BoardSquare[][]*
+""≈
+¬
+p
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.javaC C('
+%3UI.board.BoardSquare"
+__arrayGet*
+
+%2UI.board.BoardSquare[]*
+"""ê
+p
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.javaC C((
+
+%3UI.board.BoardSquare*„
+3p
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.javaB B(„
+‡
+p
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.javaB B()
+%0boolean"0UI.board.ChessGameBoard#validateCoordinates(II)Z*
+UI.board.ChessGameBoard*
+""*
+""*
+2
+1*Ò
+1p
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.javaE E("z
+p
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.javaE E(
+"":
+"":
+""B
+UI.board.ChessGameBoard

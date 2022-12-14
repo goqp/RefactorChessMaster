@@ -1,0 +1,5 @@
+UI.pieces.King#createImageByPieceType()Ljavax/swing/ImageIcon;
+java.lang.Object#getClass()Ljava/lang/Class;
+java.lang.Class#getResource(Ljava/lang/String;)Ljava/net/URL;
+javax.swing.ImageIcon#<init>(Ljava/net/URL;)V
+javax.swing.ImageIcon#instance-init#
