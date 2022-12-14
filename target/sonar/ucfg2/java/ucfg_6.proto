@@ -1,0 +1,122 @@
+
+1UI.pieces.Pawn#move(LUI/board/ChessGameBoard;II)Zg
+]D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/pieces/Pawn.java8 8("startingBlock*ﬂ
+2g
+]D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/pieces/Pawn.javaE E("q
+g
+]D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/pieces/Pawn.javaE E(
+""*Û	
+3g
+]D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/pieces/Pawn.java? ?(ÑÅ
+g
+]D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/pieces/Pawn.java? ?('
+%6UI.board.BoardSquare"9UI.board.ChessGameBoard#getCell(II)LUI/board/BoardSquare;*"
+ 
+boardUI.board.ChessGameBoard*
+""*
+""2getCell(II)ƒ¡
+g
+]D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/pieces/Pawn.javaC C()	
+%7int"$UI.ChessGamePiece#getColorOfPiece()I*
+UI.pieces.Pawn2getColorOfPiece()îë
+g
+]D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/pieces/Pawn.java?= ?(B
+%8UI.pieces.Queen"UI.pieces.QueenÉ
+Ä
+g
+]D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/pieces/Pawn.java?9 C(*
+%9"5UI.pieces.Queen#<init>(LUI/board/ChessGameBoard;III)V*
+
+%8UI.pieces.Queen*"
+ 
+boardUI.board.ChessGameBoard*
+""*
+""*
+	
+%7intîë
+g
+]D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/pieces/Pawn.java? C(+
+%10void";UI.board.BoardSquare#setPieceOnSquare(LUI/ChessGamePiece;)V*
+
+%6UI.board.BoardSquare*
+
+%8UI.pieces.Queen2%setPieceOnSquare(LUI/ChessGamePiece;)*
+2*„
+startingBlockg
+]D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/pieces/Pawn.java8 8(?ª
+∏
+g
+]D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/pieces/Pawn.java7 7(
+%11"
+__annotate*
+java.lang.Override*"
+ 
+boardUI.board.ChessGameBoard•
+¢
+g
+]D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/pieces/Pawn.java8' 8(, 
+boardUI.board.ChessGameBoard"__annotation*
+
+%11*
+8*√
+5g
+]D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/pieces/Pawn.java= =('ƒ¡
+g
+]D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/pieces/Pawn.java= =()	
+%4int"$UI.ChessGamePiece#getColorOfPiece()I*
+UI.pieces.Pawn2getColorOfPiece()Ö
+Ç
+g
+]D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/pieces/Pawn.java=- =(A	
+%5int"__id*
+""*
+2
+3*∆
+7g
+]D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/pieces/Pawn.java: :(…∆
+g
+]D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/pieces/Pawn.java; ;(9
+%1java.util.ArrayList"UUI.pieces.Pawn#calculatePossibleMoves(LUI/board/ChessGameBoard;)Ljava/util/ArrayList;*
+UI.pieces.Pawn*"
+ 
+boardUI.board.ChessGameBoard21calculatePossibleMoves(LUI/board/ChessGameBoard;)¥
+±
+g
+]D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/pieces/Pawn.java; ;(9#
+UI.pieces.Pawn"
+possibleMoves"__id*
+
+%1java.util.ArrayListƒ¡
+g
+]D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/pieces/Pawn.java< <("	
+%2int"$UI.ChessGamePiece#getColorOfPiece()I*
+UI.pieces.Pawn2getColorOfPiece()Ö
+Ç
+g
+]D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/pieces/Pawn.java<& <(:	
+%3int"__id*
+""*
+3
+5*‰
+8g
+]D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/pieces/Pawn.java9 9(Ì
+Í
+g
+]D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/pieces/Pawn.java9 9('
+%0boolean"4UI.ChessGamePiece#move(LUI/board/ChessGameBoard;II)Z*
+""*"
+ 
+boardUI.board.ChessGameBoard*
+""*
+""*
+7
+1*ﬂ
+1g
+]D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/pieces/Pawn.javaG G("q
+g
+]D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/pieces/Pawn.javaG G(
+"": 
+boardUI.board.ChessGameBoard:
+"":
+""B
+UI.pieces.Pawn

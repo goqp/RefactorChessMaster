@@ -1,0 +1,3 @@
+logic.ChessGameLog#getLastLog()Ljava/lang/String;
+java.lang.String#substring(I)Ljava/lang/String;
+java.lang.String#lastIndexOf(Ljava/lang/String;)I

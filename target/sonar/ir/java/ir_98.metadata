@@ -1,0 +1,4 @@
+logic.ChessGameEngine#determineActionFromSquareClick(Ljava/awt/event/MouseEvent;)V
+logic.ChessGameEngine#selectedPieceIsValid()Z
+javax.swing.JOptionPane#showMessageDialog(Ljava/awt/Component;Ljava/lang/Object;Ljava/lang/String;I)V
+logic.ChessGameEngine#checkGameConditions()V

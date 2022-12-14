@@ -1,0 +1,80 @@
+
+-logic.ChessGameEngine#selectedPieceIsValid()Zn
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.java{ {(("9*ñ
+2p
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.javaŠ Š("z
+p
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.javaŠ Š(
+""*©
+3p
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.java‰ ‰(Á
+¾
+p
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.java‰ ‰(
+%4UI.ChessGamePiece"__id*+*)
+logic.ChessGameEngine"
+currentPieceÔÑ
+p
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.java‰ ‰(.	
+%5int"$UI.ChessGamePiece#getColorOfPiece()I*
+
+%4UI.ChessGamePiece2getColorOfPiece()Ž
+‹
+p
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.java‰2 ‰(F	
+%6int"__id*
+""*
+2
+1*ñ
+4p
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.java… …("z
+p
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.java… …(
+""*ñ
+5p
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.javaƒ ƒ("z
+p
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.javaƒ ƒ(
+""*©
+6p
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.java‚ ‚(Á
+¾
+p
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.java‚ ‚(
+%1UI.ChessGamePiece"__id*+*)
+logic.ChessGameEngine"
+currentPieceÔÑ
+p
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.java‚ ‚(.	
+%2int"$UI.ChessGamePiece#getColorOfPiece()I*
+
+%1UI.ChessGamePiece2getColorOfPiece()Ž
+‹
+p
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.java‚2 ‚(F	
+%3int"__id*
+""*
+4
+5*í
+8n
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.java~ ~("x
+n
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.java~ ~(
+""*À
+9n
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.java| |(¿
+¼
+n
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.java| |(
+%0UI.ChessGamePiece"__id*+*)
+logic.ChessGameEngine"
+currentPiece*	
+3
+6
+8*ñ
+1p
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.javaŒ Œ("z
+p
+dD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameEngine.javaŒ Œ(
+""B
+logic.ChessGameEngine

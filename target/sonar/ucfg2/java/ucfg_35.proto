@@ -1,0 +1,172 @@
+
+7UI.ChessGamePiece#isEnemy(LUI/board/ChessGameBoard;II)Zl
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.java– –("14"15*Ÿ
+13l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.java› ›(¤
+¡
+l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.java› ›(
+%2UI.ChessGamePiece"__id*
+
+%3
+<nulltype>*
+11*ƒ
+14l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.javaš$ š()‰†
+l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.javaš$ š(;
+%0UI.board.BoardSquare"9UI.board.ChessGameBoard#getCell(II)LUI/board/BoardSquare;*"
+ 
+boardUI.board.ChessGameBoard*
+""*
+""2getCell(II)øõ
+l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.javaš$ š(N
+%1UI.ChessGamePiece":UI.board.BoardSquare#getPieceOnSquare()LUI/ChessGamePiece;*
+
+%0UI.board.BoardSquare2getPieceOnSquare()*
+13
+12*ê
+15l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.java˜ ˜("v
+l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.java˜ ˜(
+""*é
+1l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.java¬ ¬("v
+l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.java¬ ¬(
+""*é
+2l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.javaª ª("v
+l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.javaª ª(
+""*ã
+3l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.java© ©(ÙÖ
+l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.java© ©(,
+
+%14int"$UI.ChessGamePiece#getColorOfPiece()I*!
+
+
+enemyPieceUI.ChessGamePiece2getColorOfPiece()‹
+ˆ
+l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.java©0 ©(D
+
+%15int"__id*
+""*
+2
+1*é
+4l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.java¦ ¦("v
+l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.java¦ ¦(
+""*é
+5l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.java¤ ¤("v
+l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.java¤ ¤(
+""*ã
+6l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.java£ £(ÙÖ
+l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.java£ £(,
+
+%12int"$UI.ChessGamePiece#getColorOfPiece()I*!
+
+
+enemyPieceUI.ChessGamePiece2getColorOfPiece()‹
+ˆ
+l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.java£0 £(D
+
+%13int"__id*
+""*
+4
+5*×
+7l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.java¢ ¢(ÍÊ
+l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.java¢ ¢("
+
+%10int"$UI.ChessGamePiece#getColorOfPiece()I*
+UI.ChessGamePiece2getColorOfPiece()‹
+ˆ
+l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.java¢& ¢(:
+
+%11int"__id*
+""*
+3
+6*é
+8l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.java   ("v
+l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.java   (
+""*á
+9l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.javaŸ Ÿ(ØÕ
+l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.javaŸ Ÿ(/	
+%8int"$UI.ChessGamePiece#getColorOfPiece()I*!
+
+
+enemyPieceUI.ChessGamePiece2getColorOfPiece()Š
+‡
+l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.javaŸ3 Ÿ(L	
+%9int"__id*
+""*
+7
+8*Ö
+10l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.javaž ž(ÌÉ
+l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.javaž ž()	
+%6int"$UI.ChessGamePiece#getColorOfPiece()I*
+UI.ChessGamePiece2getColorOfPiece()Š
+‡
+l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.javaž- ž(F	
+%7int"__id*
+""*
+8
+9*±
+11l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.javaš œ(=³
+°
+l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.javaš œ(=
+
+enemyPieceUI.ChessGamePiece"__id*
+
+%2UI.ChessGamePiece*
+8
+10*­
+12l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.javaœ œ(‰†
+l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.javaœ œ()
+%5UI.board.BoardSquare"9UI.board.ChessGameBoard#getCell(II)LUI/board/BoardSquare;*"
+ 
+boardUI.board.ChessGameBoard*
+""*
+""2getCell(II)øõ
+l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.javaœ œ(<
+%4UI.ChessGamePiece":UI.board.BoardSquare#getPieceOnSquare()LUI/ChessGamePiece;*
+
+%5UI.board.BoardSquare2getPieceOnSquare()«
+¨
+l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.javaœ œ(<
+%2UI.ChessGamePiece"__id*
+
+%4UI.ChessGamePiece*
+11: 
+boardUI.board.ChessGameBoard:
+"":
+""B
+UI.ChessGamePiece

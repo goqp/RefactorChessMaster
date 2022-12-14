@@ -1,0 +1,4 @@
+UI.ChessGamePiece#toString()Ljava/lang/String;
+java.lang.Class#toString()Ljava/lang/String;
+java.lang.Object#getClass()Ljava/lang/Class;
+java.lang.String#substring(I)Ljava/lang/String;

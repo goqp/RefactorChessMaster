@@ -1,0 +1,7 @@
+organization=francism16
+projectKey=ChessMaster:test
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.31186
+dashboardUrl=https://sonarcloud.io/dashboard?id=ChessMaster%3Atest
+ceTaskId=AYKyt3eh3nHwyqvMTwny
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYKyt3eh3nHwyqvMTwny

@@ -1,0 +1,68 @@
+
+1logic.ChessGameLog#getLastLog()Ljava/lang/String;k
+aD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameLog.java> >("3*¨
+2k
+aD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameLog.javaA A(¹
+¶
+k
+aD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameLog.javaA A(
+%3javax.swing.JTextArea"__id*$*"
+logic.ChessGameLog"
+
+textAreaïì
+k
+aD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameLog.javaA A(%
+%4java.lang.String";javax.swing.text.JTextComponent#getText()Ljava/lang/String;*
+
+%3javax.swing.JTextArea2	getText()"‡
+k
+aD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameLog.javaA A(&
+
+%4java.lang.String*š
+3k
+aD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameLog.java?! ?()¹
+¶
+k
+aD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameLog.java?! ?()
+%0javax.swing.JTextArea"__id*$*"
+logic.ChessGameLog"
+
+textAreaïì
+k
+aD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameLog.java?! ?(3
+%1java.lang.String";javax.swing.text.JTextComponent#getText()Ljava/lang/String;*
+
+%0javax.swing.JTextArea2	getText()ñî
+k
+aD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameLog.java?! ?(E	
+%2int"1java.lang.String#lastIndexOf(Ljava/lang/String;)I*
+
+%1java.lang.String*
+\n2lastIndexOf(Ljava/lang/String;)*
+2
+1*”
+1k
+aD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameLog.javaC C(¹
+¶
+k
+aD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameLog.javaC C(
+%5javax.swing.JTextArea"__id*$*"
+logic.ChessGameLog"
+
+textAreaïì
+k
+aD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameLog.javaC C(!
+%6java.lang.String";javax.swing.text.JTextComponent#getText()Ljava/lang/String;*
+
+%5javax.swing.JTextArea2	getText()éæ
+k
+aD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameLog.javaC C(C
+%7java.lang.String"/java.lang.String#substring(I)Ljava/lang/String;*
+
+%6java.lang.String*
+""2substring(I)"‡
+k
+aD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/logic/ChessGameLog.javaC C(D
+
+%7java.lang.StringB
+logic.ChessGameLog

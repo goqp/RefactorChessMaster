@@ -1,0 +1,61 @@
+
+.UI.ChessGamePiece#toString()Ljava/lang/String;l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.javaÔ Ô("1*»
+1l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.javaÕ Õ(ÙÖ
+l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.javaÕ Õ(
+%0java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*
+UI.ChessGamePiece2
+getClass()ÜÙ
+l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.javaÕ Õ()
+%1java.lang.String",java.lang.Class#toString()Ljava/lang/String;*
+
+%0java.lang.Class2
+toString()èå
+l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.javaÕ Õ(6
+%2java.lang.String"/java.lang.String#substring(I)Ljava/lang/String;*
+
+%1java.lang.String*22substring(I)·
+´
+l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.javaÕ Õ(?
+%3java.lang.String"__concat*
+
+%2java.lang.String*
+ @ (µ
+²
+l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.javaÕ Õ(J
+%4java.lang.String"__concat*
+
+%3java.lang.String*
+""µ
+²
+l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.javaÕ Ö(
+%5java.lang.String"__concat*
+
+%4java.lang.String*
+, µ
+²
+l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.javaÕ Ö($
+%6java.lang.String"__concat*
+
+%5java.lang.String*
+""´
+±
+l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.javaÕ Ö(*
+%7java.lang.String"__concat*
+
+%6java.lang.String*
+)"ˆ
+l
+`D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/ChessGamePiece.javaÕ Ö(+
+
+%7java.lang.StringB
+UI.ChessGamePiece

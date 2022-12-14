@@ -1,0 +1,2 @@
+UI.board.BoardSquare#setPieceOnSquare(LUI/ChessGamePiece;)V
+UI.board.BoardSquare#updateImage()V

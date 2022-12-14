@@ -1,0 +1,114 @@
+
+@UI.pieces.Bishop#createImageByPieceType()Ljavax/swing/ImageIcon;i
+_D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/pieces/Bishop.java? ?(+"5*ö
+2i
+_D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/pieces/Bishop.javaE E(ÕÒ
+i
+_D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/pieces/Bishop.javaE E(
+%8java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*
+UI.pieces.Bishop2
+getClass()œ™
+i
+_D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/pieces/Bishop.javaE E(I
+%9java.net.URL"=java.lang.Class#getResource(Ljava/lang/String;)Ljava/net/URL;*
+
+%8java.lang.Class*
+chessImages/BlackBishop.gif2getResource(Ljava/lang/String;)£ 
+i
+_D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/pieces/Bishop.javaD D( 
+%10javax.swing.ImageIcon"javax.swing.ImageIconÚ
+×
+i
+_D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/pieces/Bishop.javaD E(J
+%11"-javax.swing.ImageIcon#<init>(Ljava/net/URL;)V*
+
+%10javax.swing.ImageIcon*
+
+%9java.net.URL"‹
+i
+_D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/pieces/Bishop.javaD E(K
+
+%10javax.swing.ImageIcon*Ë
+3i
+_D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/pieces/Bishop.javaC C("ÈÅ
+i
+_D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/pieces/Bishop.javaC C($	
+%6int"$UI.ChessGamePiece#getColorOfPiece()I*
+UI.pieces.Bishop2getColorOfPiece()‡
+„
+i
+_D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/pieces/Bishop.javaC( C(<	
+%7int"__id*
+""*
+2
+1*ò
+4i
+_D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/pieces/Bishop.javaB B(ÕÒ
+i
+_D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/pieces/Bishop.javaB B(
+%2java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*
+UI.pieces.Bishop2
+getClass()œ™
+i
+_D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/pieces/Bishop.javaB B(I
+%3java.net.URL"=java.lang.Class#getResource(Ljava/lang/String;)Ljava/net/URL;*
+
+%2java.lang.Class*
+chessImages/WhiteBishop.gif2getResource(Ljava/lang/String;)¢Ÿ
+i
+_D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/pieces/Bishop.javaA A( 
+%4javax.swing.ImageIcon"javax.swing.ImageIconØ
+Õ
+i
+_D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/pieces/Bishop.javaA B(J
+%5"-javax.swing.ImageIcon#<init>(Ljava/net/URL;)V*
+
+%4javax.swing.ImageIcon*
+
+%3java.net.URL"Š
+i
+_D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/pieces/Bishop.javaA B(K
+
+%4javax.swing.ImageIcon*Ë
+5i
+_D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/pieces/Bishop.java@ @(ÈÅ
+i
+_D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/pieces/Bishop.java@ @(	
+%0int"$UI.ChessGamePiece#getColorOfPiece()I*
+UI.pieces.Bishop2getColorOfPiece()‡
+„
+i
+_D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/pieces/Bishop.java@! @(5	
+%1int"__id*
+""*
+3
+4*ú
+1i
+_D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/pieces/Bishop.javaH H(ÖÓ
+i
+_D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/pieces/Bishop.javaH H(
+%12java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*
+UI.pieces.Bishop2
+getClass()ž›
+i
+_D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/pieces/Bishop.javaH H(I
+%13java.net.URL"=java.lang.Class#getResource(Ljava/lang/String;)Ljava/net/URL;*
+
+%12java.lang.Class*
+chessImages/BlackBishop.gif2getResource(Ljava/lang/String;)£ 
+i
+_D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/pieces/Bishop.javaG G( 
+%14javax.swing.ImageIcon"javax.swing.ImageIconÛ
+Ø
+i
+_D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/pieces/Bishop.javaG H(J
+%15"-javax.swing.ImageIcon#<init>(Ljava/net/URL;)V*
+
+%14javax.swing.ImageIcon*
+
+%13java.net.URL"‹
+i
+_D:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/pieces/Bishop.javaG H(K
+
+%14javax.swing.ImageIconB
+UI.pieces.Bishop

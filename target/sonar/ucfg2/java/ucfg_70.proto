@@ -1,0 +1,316 @@
+
+&UI.board.ChessGameBoard#resetBoard(Z)Vr
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.java” ”("14*Ë
+13r
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.java˜ ˜(#ïì
+r
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.java˜ ˜(%
+%3java.awt.Container"2java.awt.Component#getParent()Ljava/awt/Container;*
+UI.board.ChessGameBoard2getParent()ûø
+r
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.java˜ ˜(6
+%4logic.ChessGraveyard"3UI.ChessPanel#getGraveyard(I)Llogic/ChessGraveyard;*
+
+%3java.awt.Container*22getGraveyard(I)ÛØ
+r
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.java˜ ˜(G
+
+%5void"&logic.ChessGraveyard#clearGraveyard()V*
+
+%4logic.ChessGraveyard2clearGraveyard()ïì
+r
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.java™ ™(%
+%6java.awt.Container"2java.awt.Component#getParent()Ljava/awt/Container;*
+UI.board.ChessGameBoard2getParent()ûø
+r
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.java™ ™(6
+%7logic.ChessGraveyard"3UI.ChessPanel#getGraveyard(I)Llogic/ChessGraveyard;*
+
+%6java.awt.Container*22getGraveyard(I)ÛØ
+r
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.java™ ™(G
+
+%8void"&logic.ChessGraveyard#clearGraveyard()V*
+
+%7logic.ChessGraveyard2clearGraveyard()ïì
+r
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.javaš š(%
+%9java.awt.Container"2java.awt.Component#getParent()Ljava/awt/Container;*
+UI.board.ChessGameBoard2getParent()ìé
+r
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.javaš š(3
+%10logic.ChessGameLog".UI.ChessPanel#getGameLog()Llogic/ChessGameLog;*
+
+%9java.awt.Container2getGameLog()ÍÊ
+r
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.javaš š(>
+%11void"logic.ChessGameLog#clearLog()V*
+
+%10logic.ChessGameLog2
+clearLog()*
+11*Æ
+14r
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.java•% •(&±®
+r
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.java• •(*
+%0UI.board.BoardSquare[][]"UI.board.BoardSquare[][]Ê
+Ç
+r
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.java• •(*)
+UI.board.ChessGameBoard"
+
+chessCells"__id* 
+
+%0UI.board.BoardSquare[][]ÎË
+r
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.java– –(
+
+%1void"java.awt.Container#removeAll()V*
+UI.board.ChessGameBoard2removeAll()ïì
+r
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.java— —(
+%2java.awt.Container"2java.awt.Component#getParent()Ljava/awt/Container;*
+UI.board.ChessGameBoard2getParent()*
+13
+11*¥
+4r
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.java¥ ¥(Ë
+È
+r
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.java¥ ¥(
+%31UI.board.BoardSquare[][]"__id*+*)
+UI.board.ChessGameBoard"
+
+chessCellsÍ
+Ê
+r
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.java¥ ¥(!
+%32UI.board.BoardSquare[]"
+__arrayGet*!
+
+%31UI.board.BoardSquare[][]*
+""É
+Æ
+r
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.java¥ ¥($
+%33UI.board.BoardSquare"
+__arrayGet*
+
+%32UI.board.BoardSquare[]*
+""Ö
+Ó
+r
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.java¥6 ¥(>,
+%34%UI.board.ChessGameBoard$BoardListener"__id*)*'
+UI.board.ChessGameBoard"
+
+listenerËÈ
+r
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.java¥ ¥(?
+%35void"Djava.awt.Component#addMouseListener(Ljava/awt/event/MouseListener;)V*
+
+%33UI.board.BoardSquare*.
+,
+%34%UI.board.ChessGameBoard$BoardListener20addMouseListener(Ljava/awt/event/MouseListener;)Ë
+È
+r
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.java¦ ¦('
+%36UI.board.BoardSquare[][]"__id*+*)
+UI.board.ChessGameBoard"
+
+chessCellsÍ
+Ê
+r
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.java¦ ¦(*
+%37UI.board.BoardSquare[]"
+__arrayGet*!
+
+%36UI.board.BoardSquare[][]*
+""É
+Æ
+r
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.java¦ ¦(-
+%38UI.board.BoardSquare"
+__arrayGet*
+
+%37UI.board.BoardSquare[]*
+""«¨
+r
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.java¦ ¦(.
+%39java.awt.Component"@java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;*
+UI.board.ChessGameBoard*
+
+%38UI.board.BoardSquare2add(Ljava/awt/Component;)*
+9*¡	
+6r
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.java¢ ¢(Ë
+È
+r
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.java¢ ¢(
+%26UI.board.BoardSquare[][]"__id*+*)
+UI.board.ChessGameBoard"
+
+chessCellsÍ
+Ê
+r
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.java¢ ¢(!
+%27UI.board.BoardSquare[]"
+__arrayGet*!
+
+%26UI.board.BoardSquare[][]*
+""É
+Æ
+r
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.java¢ ¢($
+%28UI.board.BoardSquare"
+__arrayGet*
+
+%27UI.board.BoardSquare[]*
+""œ
+™
+r
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.java¢3 ¢(>
+%29java.awt.Color"__id*
+""–“
+r
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.java¢ ¢(?
+%30void"7javax.swing.JComponent#setBackground(Ljava/awt/Color;)V*
+
+%28UI.board.BoardSquare*
+
+%29java.awt.Color2setBackground(Ljava/awt/Color;)*
+4
+9*¡	
+7r
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.java   (Ë
+È
+r
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.java   (
+%21UI.board.BoardSquare[][]"__id*+*)
+UI.board.ChessGameBoard"
+
+chessCellsÍ
+Ê
+r
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.java   (!
+%22UI.board.BoardSquare[]"
+__arrayGet*!
+
+%21UI.board.BoardSquare[][]*
+""É
+Æ
+r
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.java   ($
+%23UI.board.BoardSquare"
+__arrayGet*
+
+%22UI.board.BoardSquare[]*
+""œ
+™
+r
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.java 3  (>
+%24java.awt.Color"__id*
+""–“
+r
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.java   (?
+%25void"7javax.swing.JComponent#setBackground(Ljava/awt/Color;)V*
+
+%23UI.board.BoardSquare*
+
+%24java.awt.Color2setBackground(Ljava/awt/Color;)*
+4
+9*å
+
+8r
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.java (Ë
+È
+r
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.java (
+%15UI.board.BoardSquare[][]"__id*+*)
+UI.board.ChessGameBoard"
+
+chessCellsÍ
+Ê
+r
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.java (
+%16UI.board.BoardSquare[]"
+__arrayGet*!
+
+%15UI.board.BoardSquare[][]*
+""ª§
+r
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.java' (2
+%17UI.board.BoardSquare"UI.board.BoardSquareê
+ç
+r
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.java# (>
+%18"3UI.board.BoardSquare#<init>(IILUI/ChessGamePiece;)V*
+
+%17UI.board.BoardSquare*
+""*
+""*
+""Ò
+Ï
+r
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.java (>
+%19"
+__arraySet*
+
+%16UI.board.BoardSquare[]*
+""*
+
+%17UI.board.BoardSquareÖ
+Ó
+r
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.java (
+%20"
+__arraySet*!
+
+%15UI.board.BoardSquare[][]*
+""*
+
+%16UI.board.BoardSquare[]*
+6
+7*š
+9r
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.java (Ë
+È
+r
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.java  (*
+%13UI.board.BoardSquare[][]"__id*+*)
+UI.board.ChessGameBoard"
+
+chessCellsÉ
+Æ
+r
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.java  (-
+%14UI.board.BoardSquare[]"
+__arrayGet*!
+
+%13UI.board.BoardSquare[][]*2 *
+8
+11*‘
+0 "‰
+r
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.java¬ ¬(
+implicit return*Î
+11r
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.javaœ œ(Ë
+È
+r
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.javaœ œ(&
+%12UI.board.BoardSquare[][]"__id*+*)
+UI.board.ChessGameBoard"
+
+chessCells*
+9
+1*Ê
+1r
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.javaª ª(ËÈ
+r
+fD:/Universidad/Gestion mantenimiento/GM_RefactorChessMaster/src/main/java/UI/board/ChessGameBoard.javaª ª(
+%40void"java.awt.Component#repaint()V*
+UI.board.ChessGameBoard2	repaint()*
+0:
+""B
+UI.board.ChessGameBoard
