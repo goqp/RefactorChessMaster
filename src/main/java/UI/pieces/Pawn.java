@@ -132,13 +132,13 @@ public class Pawn
     public ImageIcon createImageByPieceType() {
         if (getColorOfPiece() == ChessGamePiece.WHITE) {
             return new ImageIcon(
-                    getClass().getResource("chessImages/WhitePawn.gif"));
+                    getClass().getResource("../chessImages/WhitePawn.gif"));
         } else if (getColorOfPiece() == ChessGamePiece.BLACK) {
             return new ImageIcon(
-                    getClass().getResource("chessImages/BlackPawn.gif"));
+                    getClass().getResource("../chessImages/BlackPawn.gif"));
         } else {
             return new ImageIcon(
-                    getClass().getResource("chessImages/default-Unassigned.gif"));
+                    getClass().getResource("../chessImages/default-Unassigned.gif"));
         }
     }
 }
