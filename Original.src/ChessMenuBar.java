@@ -16,20 +16,24 @@ public class ChessMenuBar
     /**
      * Create a new ChessMenuBar object.
      */
-    public ChessMenuBar(){
+    public ChessMenuBar() {
         String[] menuCategories = { "File", "Options", "Help" };
-        String[] menuItemLists =
-        { "New game/restart,Exit", "Toggle graveyard,Toggle game log",
-          "About" };
-        for ( int i = 0; i < menuCategories.length; i++ ){
-            JMenu currMenu = new JMenu( menuCategories[i] );
-            String[] currMenuItemList = menuItemLists[i].split( "," );
-            for ( int j = 0; j < currMenuItemList.length; j++ ){
-                JMenuItem currItem = new JMenuItem( currMenuItemList[j] );
-                currItem.addActionListener( new MenuListener() );
-                currMenu.add( currItem );
+        String[] menuItemLists = { "New game/restart,Exit", "Toggle graveyard,Toggle game log", "About" };
+    
+        createMenuItems(menuCategories, menuItemLists);
+    }
+    private void createMenuItems(String[] menuCategories, String[] menuItemLists) {
+        for (int i = 0; i < menuCategories.length; i++) {
+            String delimiter = ",";
+            JMenu currMenu = new JMenu(menuCategories[i]);
+            String[] currMenuItemList = Utilities.splitMenuItemList(menuItemLists[i], delimiter);
+    
+            for (int j = 0; j < currMenuItemList.length; j++) {
+                JMenuItem currItem = new JMenuItem(currMenuItemList[j]);
+                currItem.addActionListener(new MenuListener());
+                currMenu.add(currItem);
             }
-            this.add( currMenu );
+            this.add(currMenu);
         }
     }
     /**

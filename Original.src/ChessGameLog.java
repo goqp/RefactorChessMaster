@@ -32,15 +32,16 @@ public class ChessGameLog
      * @param s
      *            the line of text to add
      */
-    public void addToLog( String s ){
-        if ( textArea.getText().length() > 0 ){
-            textArea.setText( textArea.getText() + "\n" + new Date() + " - "
-                + s );
+    public void addToLog(String s) {
+        if (textArea.getText().length() > 0) {
+            appendToLog("\n" + new Date() + " - " + s);
+        } else {
+            appendToLog(new Date() + " - " + s);
         }
-        else
-        {
-            textArea.setText( new Date() + " - " + s );
-        }
+    }
+    
+    private void appendToLog(String message){
+        textArea.setText(textArea.getText() + message);
     }
     /**
      * Clears the log.
