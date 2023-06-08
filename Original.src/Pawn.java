@@ -96,7 +96,7 @@ public class Pawn extends ChessGamePiece {
      * Se extrajo los  métodos promoteToQueen() para especificar el cambio de un peon a
      * reina y addEnemyCaptureMoves() para especificar la funcionalidad al momento de 
      * tomar piezas del rival, esto permite que se entienda mejor la funcionalidad descrita
-     * dentro de los métodos que anterioremente estaban comentados.
+     * dentro de los métodos que anterioremente estaban comentados
      */
 
     private void promoteToQueen(ChessGameBoard board, int row, int col) {
