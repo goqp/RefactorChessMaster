@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.function.Function;
 import java.awt.Color;
 import javax.swing.JOptionPane;
 import java.awt.event.MouseEvent;
@@ -27,7 +28,8 @@ public class ChessGameEngine{
      * @param board
      *            the reference ChessGameBoard
      */
-    public ChessGameEngine( ChessGameBoard board ){
+
+    public void initBoardChess( ChessGameBoard board){
         firstClick = true;
         currentPlayer = 1;
         this.board = board;
@@ -35,28 +37,22 @@ public class ChessGameEngine{
         this.king2 = (King)board.getCell( 0, 3 ).getPieceOnSquare();
         ( (ChessPanel)board.getParent() ).getGameLog().clearLog();
         ( (ChessPanel)board.getParent() ).getGameLog().addToLog(
-            "A new chess "
-                + "game has been started. Player 1 (white) will play "
-                + "against Player 2 (black). BEGIN!" );
+            ConstMessage.START_GAME );
+    }
+
+    public ChessGameEngine( ChessGameBoard board ){
+        initBoardChess(board);
     }
     // ----------------------------------------------------------
     /**
      * Resets the game to its original state.
      */
     public void reset(){
-        firstClick = true;
-        currentPlayer = 1;
         ( (ChessPanel)board.getParent() ).getGraveyard( 1 ).clearGraveyard();
         ( (ChessPanel)board.getParent() ).getGraveyard( 2 ).clearGraveyard();
         ( (ChessPanel)board.getParent() ).getGameBoard().initializeBoard();
         ( (ChessPanel)board.getParent() ).revalidate();
-        this.king1 = (King)board.getCell( 7, 3 ).getPieceOnSquare();
-        this.king2 = (King)board.getCell( 0, 3 ).getPieceOnSquare();
-        ( (ChessPanel)board.getParent() ).getGameLog().clearLog();
-        ( (ChessPanel)board.getParent() ).getGameLog().addToLog(
-            "A new chess "
-                + "game has been started. Player 1 (white) will play "
-                + "against Player 2 (black). BEGIN!" );
+        initBoardChess(board);
     }
     /**
      * Switches the turn to be the next player's turn.
@@ -160,7 +156,7 @@ public class ChessGameEngine{
     private void askUserToPlayAgain( String endGameStr ){
         int resp =
             JOptionPane.showConfirmDialog( board.getParent(), endGameStr
-                + " Do you want to play again?" );
+                + ConstMessage.PLAY_AGAIN );
         if ( resp == JOptionPane.YES_OPTION ){
             reset();
         }
@@ -180,14 +176,14 @@ public class ChessGameEngine{
         for ( int i = 0; i < 2; i++ ){
             int gameLostRetVal = determineGameLost();
             if ( gameLostRetVal < 0 ){
-                askUserToPlayAgain( "Game over - STALEMATE. You should both go"
-                    + " cry in a corner!" );
+                askUserToPlayAgain( ConstMessage.GAME_OVER_STALEMATE+"You should both go"
+                    + ConstMessage.GAME_OVER_MESSAGE_GENERIC );
                 return;
             }
             else if ( gameLostRetVal > 0 ){
-                askUserToPlayAgain( "Game over - CHECKMATE. " + "Player "
+                askUserToPlayAgain( ConstMessage.GAME_OVER_CHECKMATE + " Player "
                     + gameLostRetVal + " loses and should go"
-                    + " cry in a corner!" );
+                    + ConstMessage.GAME_OVER_MESSAGE_GENERIC );
                 return;
             }
             else if ( isKingInCheck( true ) ){
@@ -196,7 +192,7 @@ public class ChessGameEngine{
                     "Be careful player " + currentPlayer + ", " +
                     "your king is in check! Your next move must get " +
                     "him out of check or you're screwed.",
-                    "Warning",
+                    ConstMessage.TITLE_WARNING,
                     JOptionPane.WARNING_MESSAGE );
             }
             currentPlayer = currentPlayer == 1 ? 2 : 1;
@@ -286,15 +282,15 @@ public class ChessGameEngine{
             JOptionPane.showMessageDialog(
                 square,
                 "You tried to pick up the other player's piece! "
-                    + "Get some glasses and pick a valid square.",
-                "Illegal move",
+                    + ConstMessage.INVALID_MOVED_GENERIC,
+                ConstMessage.TITLE_ILEGAL_MOVED,
                 JOptionPane.ERROR_MESSAGE);
         } else {
             JOptionPane.showMessageDialog(
                 square,
                 "You tried to pick up an empty square! "
-                    + "Get some glasses and pick a valid square.",
-                "Illegal move",
+                    + ConstMessage.INVALID_MOVED_GENERIC,
+                    ConstMessage.TITLE_ILEGAL_MOVED,
                 JOptionPane.ERROR_MESSAGE);
         }
     }
@@ -309,7 +305,7 @@ public class ChessGameEngine{
                 + " is either not valid or not legal "
                 + "for this piece. Choose another move location, "
                 + "and try using your brain this time!",
-            "Invalid move",
+                ConstMessage.TITLE_INVALID_MOVED,
             JOptionPane.ERROR_MESSAGE);
     }
 
